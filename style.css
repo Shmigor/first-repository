@@ -23,6 +23,7 @@
     padding: 50px 100px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* width: 100%; */
     height: 60px;
     align-items: flex-start;
@@ -88,4 +89,40 @@
 .text-image-container {
     display: flex;
     gap: 150px;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 100%;
+}
+
+.growtogether-container {
+    border: 1px solid rgb(222, 218, 218);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    box-shadow: 20px grey;
+}
+
+.growtogether-img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.growtogether-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    justify-content: flex-start;
+}
+
+.growtogether-paragraph {
+    opacity: 50%;
 }
