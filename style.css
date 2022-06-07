@@ -194,6 +194,7 @@
 }
 
 .absolute-container {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +217,7 @@
     font-size: 16px;
     color: white;
     cursor: pointer;
-    width: 200px;
+    width: 220px;
 }
 
 .absolute-container-btn:hover {
@@ -227,5 +228,60 @@
     font-size: 16px;
     color: white;
     cursor: pointer;
-    width: 200px;
+    width: 220px;
+}
+
+.footer {
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.first-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-list {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    gap: 20px;
+}
+
+.first-list-container {
+    display: flex;
+    gap: 20px;
+}
+
+.third-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.underline-list:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.forth-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fifth-list {
+    display: flex;
+    gap: 40px;
+}
+
+.social-logo:hover {
+    cursor: pointer;
 }
